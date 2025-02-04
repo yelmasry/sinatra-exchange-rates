@@ -5,7 +5,7 @@
 <ul>
   <% @currencies.keys.each do |symbol| %>
     <li>
-      <a href="/<%= @the_symbol %>/<%= symbol %>">Convert 1 <%= symbol %>"to <%= symbol %>...</a> 
+      <a href="/<%= @the_symbol %>/<%= symbol %>">Convert 1 <%= @the_symbol %> to <%= symbol %>...</a> 
     </li>
 
   <% end %>
